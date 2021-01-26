@@ -1,1 +1,65 @@
-111
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome!</title>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+
+ body { margin: 0; }
+  a {
+ width:100%;
+ height: 100vh; 
+ background-color: grey; 
+ display: flex; 
+ align-items: center; 
+ justify-content: center;
+    text-decoration: none;
+ flex-direction: column;
+
+ }
+  a h2 {
+   color: black;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid red;
+    margin-bottom: 50px;
+  }
+    p {
+    padding: 20px 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 25px;
+      background-color: white;
+      color: black;
+      animation: box 1s ease-in-out infinite;
+      border: 5px solid red;
+    }
+    @keyframes box {
+      0% { transform: scale(1);
+        border-color: red; 
+      }
+      50% { transform: scale(1.15); 
+      border-color: yellow; }
+      100% {transform: scale(1);
+      border-color: red; }
+}
+</style>
+</head>
+<body class="body-login-form">
+<main>
+    <header></header>
+  <a style="" href="https://google.com/">
+    <h2> А Вам есть 18? </br>
+        просто кликни!
+    </h2>
+    <p>
+      Играть
+    </p>
+  </a>
+</main>
+<footer></footer>
+</body>
+</html>
